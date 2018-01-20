@@ -8,7 +8,8 @@
       "default_icon": "icon.png"
     },
     "background": {
-        "scripts": ["eventPage.js"]
+        "scripts": ["eventPage.js"],
+        "persistent": false
     },
     "permissions": [
         "tabs",
