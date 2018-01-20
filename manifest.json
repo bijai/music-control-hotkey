@@ -1,6 +1,6 @@
 {
     "name": "Music Control Hotkey",
-    "description" : "Base Level Extension",
+    "description" : "Extension to Play or Pause Music with Hotkey",
     "version": "0.1",
     "manifest_version": 2,
     "browser_action": {
