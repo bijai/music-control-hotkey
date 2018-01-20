@@ -9,8 +9,18 @@ chrome.commands.onCommand.addListener(function(command) {
             if (result.length == 1)
             {
                 chrome.tabs.executeScript(result[0].id, {"code":'document.getElementById("player-bar-play-pause").click()'}, function (){})
-
             }
+            
+        });
+
+        chrome.tabs.query({"url":"https://gaana.com/*"}, function (result)
+        {
+            console.log(result);
+            if (result.length == 1)
+            {
+                chrome.tabs.executeScript(result[0].id, {"code":'document.getElementsByClassName("play-song playPause enabled")[0].click()'}, function (){})
+            }
+            
         });
     }
-  });
+});
