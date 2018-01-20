@@ -10,4 +10,7 @@ Supports Play Music and Gaana
 - Drag and drop the folder into Chrome's Extension Page
 - You are done ! 
 
-*Strict Webstore Policies now  !  Can't make packed Extensions :(*
+*Strict Chrome Webstore Policies now  !  Can't make packed Extensions :(*
+
+### Changing Shortcut
+Extensions Page (chrome://extensions) > Keyboard shortcuts
