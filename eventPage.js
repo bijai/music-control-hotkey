@@ -22,5 +22,15 @@ chrome.commands.onCommand.addListener(function(command) {
             }
             
         });
+
+        chrome.tabs.query({"url":"https://www.youtube.com/*"}, function (result)
+        {
+            console.log(result);
+            if (result.length == 1)
+            {
+                chrome.tabs.executeScript(result[0].id, {"code":'document.getElementsByClassName("ytp-play-button ytp-button")[0].click()'}, function (){})
+            }
+            
+        });
     }
 });
