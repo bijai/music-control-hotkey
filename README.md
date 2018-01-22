@@ -12,5 +12,5 @@ Supports Youtube, Play Music and Gaana
 
 *Strict Chrome Webstore Policies now  !  Can't make packed Extensions :(*
 
-### Changing Shortcut
+### Reassign Shortcut
 Extensions Page (chrome://extensions) > Keyboard shortcuts
