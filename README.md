@@ -3,7 +3,7 @@ Chrome Extension to Control Popular Music Streaming Sites
 
 Ctrl+Shift+1 to Play/Pause - Works with chrome minimized
 
-Supports Play Music and Gaana
+Supports Youtube, Play Music and Gaana
 
 ### Installation
 - Download Source (if as zip, Extract it)
